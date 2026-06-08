@@ -1,5 +1,8 @@
-Fetched and preprocessed historical crypto data from Binance API, and scaled prices using MinMaxScaler.
-Conducted EDA with Matplotlib and Seaborn to uncover market patterns and correlations in crypto assets.
-Engineered time-series features like moving averages(MA100, MA200, MA365) to capture trends and reduce noise.
-Built and tuned a multi-layer LSTM model using Keras, optimizing architecture to minimize MSE.Visualized predicted vs actual prices.
-performed 10-day future forecasting via auto-regression on last 100 points.
+### Project Overview
+
+* Fetched and preprocessed historical Ethereum price data from the Binance API and normalized features using **MinMaxScaler** for effective sequence modeling.
+* Performed **Exploratory Data Analysis (EDA)** using Matplotlib and Seaborn to identify market trends, volatility patterns, and feature correlations.
+* Engineered time-series features including **MA100, MA200, and MA365** to capture long-term trends and reduce market noise.
+* Designed and optimized a **multi-layer LSTM network** using TensorFlow/Keras, tuning model architecture and hyperparameters to minimize **Mean Squared Error (MSE)**.
+* Evaluated model performance through predicted vs actual price visualizations and trend analysis.
+* Implemented **10-day future price forecasting** using an autoregressive approach based on the most recent 100 time steps.
